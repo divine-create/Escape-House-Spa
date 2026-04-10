@@ -38,14 +38,17 @@ export default function Hero() {
           </p>
           
           <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-            <motion.button
+            <motion.a
+              href="https://api.whatsapp.com/message/NZ46VLNQPJDCG1?autoload=1&app_absent=0&utm_source=ig"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="gold-button flex items-center gap-2 group"
             >
               Book Your Experience
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </motion.button>
+            </motion.a>
             
             <motion.button
               whileHover={{ scale: 1.05 }}

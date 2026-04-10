@@ -93,9 +93,14 @@ export default function Services() {
                 </p>
                 <div className="flex justify-between items-center pt-6 border-t border-gold/10">
                   <span className="text-gold font-medium text-sm">{service.price}</span>
-                  <button className="text-cream/40 hover:text-gold text-xs uppercase tracking-widest transition-colors">
-                    Details
-                  </button>
+                  <a 
+                    href="https://api.whatsapp.com/message/NZ46VLNQPJDCG1?autoload=1&app_absent=0&utm_source=ig"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-cream/40 hover:text-gold text-xs uppercase tracking-widest transition-colors"
+                  >
+                    Book Now
+                  </a>
                 </div>
               </div>
             </motion.div>

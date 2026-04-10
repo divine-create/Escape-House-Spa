@@ -62,7 +62,7 @@ export default function Footer() {
               <li><a href="#services" className="text-cream/40 hover:text-gold text-sm transition-colors">Treatments</a></li>
               <li><a href="#usp" className="text-cream/40 hover:text-gold text-sm transition-colors">24/7 Access</a></li>
               <li><a href="#booking" className="text-cream/40 hover:text-gold text-sm transition-colors">Memberships</a></li>
-              <li><a href="#" className="text-cream/40 hover:text-gold text-sm transition-colors">Gift Cards</a></li>
+              <li><a href="https://api.whatsapp.com/message/NZ46VLNQPJDCG1?autoload=1&app_absent=0&utm_source=ig" target="_blank" rel="noopener noreferrer" className="text-cream/40 hover:text-gold text-sm transition-colors">Gift Cards</a></li>
             </ul>
           </div>
 

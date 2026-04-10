@@ -77,11 +77,16 @@ export default function BookingForm() {
             </div>
 
             <div className="md:col-span-2 pt-4">
-              <button type="button" className="gold-button w-full py-5 text-lg shadow-xl shadow-gold/10">
-                Confirm Booking
-              </button>
+              <a 
+                href="https://api.whatsapp.com/message/NZ46VLNQPJDCG1?autoload=1&app_absent=0&utm_source=ig"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="gold-button w-full py-5 text-lg shadow-xl shadow-gold/10 text-center block"
+              >
+                Confirm Booking via WhatsApp
+              </a>
               <p className="text-center text-[10px] text-cream/30 mt-4 uppercase tracking-[0.2em]">
-                Your privacy is our priority. No payment required at booking.
+                Instant connection to our concierge. No payment required at booking.
               </p>
             </div>
           </form>

@@ -45,6 +45,7 @@ export default function AIConcierge() {
           Services include: Authentic Thai & Balinese Massages (₦45k+), Hot-Stone & Swedish Therapy (₦55k+), Luxury Facials (₦35k+), Hydrotherapy (₦25k+).
           Location: 34 Usuma Street, Maitama, Abuja.
           USP: We are open 24/7.
+          Booking: All bookings are handled via WhatsApp. Provide this link when users want to book: https://api.whatsapp.com/message/NZ46VLNQPJDCG1?autoload=1&app_absent=0&utm_source=ig
           Goal: Help users book experiences, answer questions about services, and provide a premium feel. 
           Keep responses concise and elegant.`
         }

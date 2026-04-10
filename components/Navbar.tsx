@@ -53,9 +53,14 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <button className="gold-button text-xs py-2 px-6">
+          <a 
+            href="https://api.whatsapp.com/message/NZ46VLNQPJDCG1?autoload=1&app_absent=0&utm_source=ig"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="gold-button text-xs py-2 px-6"
+          >
             Book Now
-          </button>
+          </a>
         </div>
 
         {/* Mobile Toggle */}
@@ -87,7 +92,14 @@ export default function Navbar() {
                   {link.name}
                 </a>
               ))}
-              <button className="gold-button w-full">Book Now</button>
+              <a 
+                href="https://api.whatsapp.com/message/NZ46VLNQPJDCG1?autoload=1&app_absent=0&utm_source=ig"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="gold-button w-full text-center"
+              >
+                Book Now
+              </a>
             </div>
           </motion.div>
         )}
